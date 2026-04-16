@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-Project_name = 'US-Visa Approval Prediction'
+Project_name = 'US_Visa_Approval'
 
 list_of_files = [
 
@@ -18,6 +18,7 @@ list_of_files = [
     f'{Project_name}/entity/__init__.py',
     f'{Project_name}/entity/config_entity.py',
     f'{Project_name}/entity/artifact_entity.py',
+    f'{Project_name}/exception/__init__.py',
     f'{Project_name}/logger/__init__.py',
     f'{Project_name}/pipeline/__init__.py',
     f'{Project_name}/pipeline/training_pipeline.py',
