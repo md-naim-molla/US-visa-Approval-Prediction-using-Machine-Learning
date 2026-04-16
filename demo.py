@@ -1,12 +1,9 @@
-from US_Visa_Approval.logger import logging
-from US_Visa_Approval.exception import USvisaException
-import sys
+from US_Visa_Approval.pipeline.training_pipeline import TrainingPipeline
+
+pipeline =TrainingPipeline()
+pipeline.run_pipeline()
 
 
 
-try:
-    r = 3/0
-    print(r)
 
-except Exception as e:
-    raise USvisaException(e, sys)
+
